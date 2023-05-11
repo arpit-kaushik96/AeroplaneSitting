@@ -1,0 +1,78 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Home {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.Aeroplane-Front {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  margin-top: 30px;
+  background-color: skyblue;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.ColumnContainer {
+  padding: 10px;
+  margin-top: 30px;
+  background-color: skyblue;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 250px;
+}
+
+.sitting-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.grid-container-column3 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-container-column4 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 8px;
+  text-align: center;
+  height: 10px;
+}
+
+.Input {
+  display: flex;
+  margin-top: 20px;
+}
+
+.input-box {
+  height: 30px;
+  width: 250px;
+  margin-right: 60px;
+  border: 1.5px solid rgba(0, 0, 0, 1);
+}
+
+.button {
+  width: 200px;
+  margin-right: 60px;
+  border: 1.5px solid rgba(0, 0, 0, 1);
+  background-color: rgb(240, 214, 180);
+  padding-left: 10px;
+  padding-right: 10px;
+}
